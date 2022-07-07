@@ -11,7 +11,9 @@ let handler = async (m, { conn }) => {
   let prepare = await require('@adiwajshing/baileys').generateWAMessageFromContent(m.key.remoteJid,{listMessage:{
   title: `${await conn.getName(conn.user.jid)}`,
   description: `
-⳹⍣𝐎𝐩𝐞𝐧 𝐉𝐚𝐬𝐚 𝐒𝐞𝐰𝐚 𝐁𝐎𝐓⍣⳼
+⳹⍣
+𝐎𝐩𝐞𝐧 𝐉𝐚𝐬𝐚 𝐒𝐞𝐰𝐚 𝐁𝐎𝐓⍣
+⳼
   
 ╔═══════════════╗
 ║ 〘༺ List Harga༻〙
@@ -28,7 +30,7 @@ Jika Berminat Chatt Owner Dibawah
 
 ☞𝑜𝑤𝑛𝑒𝑟 ❀wa.me/${owner[0]}✵
 
-*Owner Deffri Gans*
+*Owner 𝙕𝙮𝙠𝙪𝙖𝙣*
 `,
   buttonText: 'Harga Sesuai Pasaran',
   listType: 2,
