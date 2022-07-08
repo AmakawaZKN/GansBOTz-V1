@@ -19,7 +19,7 @@ Thanks!`
 const linkyt = `${ytlu}`
 const linkig = `${instalu}`
 const upt = `BOT Active During ${uptime}`
- let url = `https://telegra.ph/file/b1e1129b41affeb0c9778.jpg`
+ let url = `https://telegra.ph/file/d05dd80a845e959485d6e.jpg`
 let res = await fetch(url)
 let buffer = await res.buffer()
 let message = await prepareWAMessageMedia({ image: buffer }, { upload: conn.waUploadToServer })
