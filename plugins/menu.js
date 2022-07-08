@@ -149,7 +149,7 @@ let replace = {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-let url = `https://telegra.ph/file/01a5b3b1fc41ccaa284f8.png`
+let url = `https://telegra.ph/file/75c3b0e5a75fd0227818e.jpg`
 m.reply('_Tunggu Sebentar..._')
 let res = await fetch(url)
 let buffer = await res.buffer()
@@ -172,7 +172,7 @@ let message = await prepareWAMessageMedia({ image: buffer }, { upload: conn.waUp
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'ᗩしし ᗰᗴᑎᑌ',
+                                    displayText: '𝗔𝗟𝗟 𝗠𝗘𝗡𝗨 𝗭',
                                     id: '/allmenu'
                                 }
                             }]
